@@ -5,10 +5,12 @@ import { DepositosComponent } from './pages/depositos/depositos.component';
 
 //* localhost:4200/home
 //* localhost:4200/depositos 
+//* localhost:4200/prestamos
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'depositos', component: DepositosComponent }
+  { path: 'depositos', component: DepositosComponent },
+
 ];
 
 @NgModule({
