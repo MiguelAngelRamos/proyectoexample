@@ -8,6 +8,7 @@ import { DepositosComponent } from './pages/depositos/depositos.component';
 import { PrestamosComponent } from './pages/prestamos/prestamos.component';
 import { GirosComponent } from './pages/giros/giros.component';
 import { CuentaCorrienteComponent } from './pages/cuenta-corriente/cuenta-corriente.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CuentaCorrienteComponent } from './pages/cuenta-corriente/cuenta-corrie
     DepositosComponent,
     PrestamosComponent,
     GirosComponent,
-    CuentaCorrienteComponent
+    CuentaCorrienteComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

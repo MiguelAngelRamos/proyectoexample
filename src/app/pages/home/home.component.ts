@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+public title: string = 'Home';
+public headersTable: string [] = ['Saldo', 'Estado'];
+public saldo: number = 0;
+public estado: string = 'Sin estado';
+public status: boolean = false;
+
+
 }

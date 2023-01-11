@@ -1,1 +1,19 @@
-<p>home works!</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let header of headersTable">{{ header }}</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>{{ saldo }}</td>
+      <td>{{ estado }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<app-button></app-button>
+
+
+<!-- shift + alt + flecha hacia abajo -->
