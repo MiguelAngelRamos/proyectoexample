@@ -14,4 +14,14 @@ public estado: string = 'Sin estado';
 public status: boolean = false;
 
 
+opcionesBtnAumentar = {
+  color: 'btn btn-success',
+  titleBtn: 'Aumentar Saldo'
+}
+
+opcionesBtnDisminuir = {
+  color: 'btn btn-danger',
+  titleBtn: 'Disminuir Saldo'
+}
+
 }
