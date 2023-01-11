@@ -13,8 +13,9 @@
   </tbody>
 </table>
 
-<app-button [optBtn]="opcionesBtnAumentar"></app-button>
-<app-button [optBtn]="opcionesBtnDisminuir"></app-button>
+<app-button [optBtn]="opcionesBtnAumentar" (click)="aumentarSaldo()"></app-button>
+<app-button [optBtn]="opcionesBtnDisminuir" (click)="disminuirSaldo()"></app-button>
+<app-button [optBtn]="opcionesBtnEstado" (click)="cambiarEstado()"></app-button>
 
 
 <!-- shift + alt + flecha hacia abajo -->
