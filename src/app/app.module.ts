@@ -5,13 +5,19 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './pages/home/home.component';
 import { DepositosComponent } from './pages/depositos/depositos.component';
+import { PrestamosComponent } from './pages/prestamos/prestamos.component';
+import { GirosComponent } from './pages/giros/giros.component';
+import { CuentaCorrienteComponent } from './pages/cuenta-corriente/cuenta-corriente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    DepositosComponent
+    DepositosComponent,
+    PrestamosComponent,
+    GirosComponent,
+    CuentaCorrienteComponent
   ],
   imports: [
     BrowserModule,
